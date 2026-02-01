@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv init:*)",
+      "WebSearch",
+      "Bash(dir /s \"D:\\\\Cording\\\\map\")",
+      "Bash(git -C \"D:\\\\Cording\\\\map\" log --oneline -5)",
+      "WebFetch(domain:developers.kakao.com)",
+      "Bash(uv add:*)",
+      "Bash(uv run ruff check:*)",
+      "Bash(uv run ruff format:*)",
+      "Bash(uv run:*)",
+      "Bash(dir:*)"
+    ]
+  }
+}
